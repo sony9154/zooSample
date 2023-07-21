@@ -18,6 +18,6 @@ class GetExhibitservice {
             case .failure(let error):
                 print(error)
             }
-        }
-        )}
+        })
+    }
 }

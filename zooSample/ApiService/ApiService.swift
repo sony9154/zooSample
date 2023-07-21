@@ -22,15 +22,8 @@ class APIService {
         "Content-Type" : "application/json; charset=utf-8"
     ]
     
-    func getExhibit(
-                 completion: @escaping(Result<[Exhibit], Error>) -> Void) {
-        
-//        var params: [String: Any] = [:]
-//        params["q"] = q
-//        params["page"] = page
-//        params["per_page"] = per_page
-        
-        let url = baseURL//.appendingPathComponent("/search/users")
+    func getExhibit(completion: @escaping(Result<[Exhibit], Error>) -> Void) {
+        let url = baseURL
         let request = AF.request(url, method: .get,
                                  headers: defaultHeaders)
                         .validate(statusCode: 200..<300)
