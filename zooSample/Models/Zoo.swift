@@ -27,8 +27,9 @@ struct Exhibit: Codable {
     var eName: String?
     var ePicURL: String?
     var eInfo: String?
-
-    
+    var eMemo: String?
+    var eGeo: String?
+    var eUrl: String?
 }
     
 

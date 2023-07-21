@@ -54,10 +54,16 @@ class APIService {
                         continue
                     }
                     var exhibit = Exhibit(id: exhibitsID)
-                    exhibit.eInfo = exhibitData["e_info"] as? String
+                    exhibit.eNo = exhibitData["e_no"] as? String
                     exhibit.eCategory = exhibitData["e_category"] as? String
                     exhibit.eName = exhibitData["e_name"] as? String
                     exhibit.ePicURL = exhibitData["e_pic_url"] as? String
+                    exhibit.eInfo = exhibitData["e_info"] as? String
+                    exhibit.eMemo = exhibitData["e_memo"] as? String
+                    exhibit.eGeo = exhibitData["e_geo"] as? String
+                    exhibit.eUrl = exhibitData["e_url"] as? String
+                    
+                    
                     exhibits.append(exhibit)
                 }
                 

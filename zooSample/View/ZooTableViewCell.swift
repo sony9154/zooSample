@@ -7,10 +7,15 @@
 
 import UIKit
 import Stevia
+import Kingfisher
+
+
 
 class ZooTableViewCell: UITableViewCell {
-    let titleLabel = UILabel()
-    let detailLabel = UILabel()
+    let nameLabel = UILabel()
+    let infoLabel = UILabel()
+    let memoLable = UILabel()
+    let houseImageView = UIImageView()
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -23,18 +28,29 @@ class ZooTableViewCell: UITableViewCell {
     }
 
     private func setupViews() {
-        subviews(titleLabel, detailLabel)
+        sv(houseImageView, nameLabel, infoLabel)
+
+        houseImageView.contentMode = .scaleAspectFit
+        houseImageView.clipsToBounds = true
+
         layout(
             10,
-            titleLabel,
+            |-10-houseImageView.width(80).height(80)-10-nameLabel-10-|,
             5,
-            detailLabel,
-            10
+            |-10-houseImageView.width(80).height(80)-100-infoLabel-10-|,
+            20
         )
     }
 
+
+
     func configure(with exhibit: Exhibit) {
-        titleLabel.text = exhibit.eName
-        detailLabel.text = exhibit.eCategory
+        let url = URL(string: exhibit.ePicURL ?? "")
+        DispatchQueue.main.async {
+            self.houseImageView.kf.setImage(with: url)
+        }
+        nameLabel.text = exhibit.eName
+        infoLabel.text = exhibit.eInfo
+        memoLable.text = exhibit.eMemo
     }
 }

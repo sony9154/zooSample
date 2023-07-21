@@ -13,6 +13,7 @@ target 'zooSample' do
  pod 'RxViewController'
  pod 'SteviaLayout'
  pod 'Alamofire'
+ pod 'Kingfisher'
   # Pods for zooSample
 
   target 'zooSampleTests' do

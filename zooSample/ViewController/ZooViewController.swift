@@ -69,7 +69,7 @@ class ZooViewController: UIViewController, UITableViewDelegate {
     private func setupTableView() {
         tableView.register(ZooTableViewCell.self, forCellReuseIdentifier: "ZooCell")
         tableView.rowHeight = UITableView.automaticDimension
-        tableView.estimatedRowHeight = 100
+        tableView.estimatedRowHeight = 300
         tableView.rx.setDelegate(self).disposed(by: disposeBag)
     }
 }

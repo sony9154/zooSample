@@ -14,10 +14,42 @@
             filePath = "zooSample/Models/Zoo.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "init(from:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0485C175-DFD1-475C-8F2A-D870C1B0501A - 42be155eab69e22d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zooSample.ImportDate.init(from: Swift.Decoder) throws -&gt; zooSample.ImportDate"
+                  moduleName = "zooSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hsuhua/Downloads/zooSample/zooSample/Models/Zoo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "432">
+               </Location>
+               <Location
+                  uuid = "0485C175-DFD1-475C-8F2A-D870C1B0501A - 42be155eab69e22d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zooSample.ImportDate.init(from: Swift.Decoder) throws -&gt; zooSample.ImportDate"
+                  moduleName = "zooSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hsuhua/Downloads/zooSample/zooSample/Models/Zoo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "360">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -30,26 +62,42 @@
             filePath = "zooSample/Models/Zoo.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "init(from:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2CA91153-C787-4585-BBB3-00EDBE5ABA95"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "zooSample/View/ZooTableViewCell.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "configure(with:)"
-            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "93AF8B65-D3C9-42C1-9D9F-0FBD44461413 - 42be155eab69e20e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zooSample.ImportDate.init(from: Swift.Decoder) throws -&gt; zooSample.ImportDate"
+                  moduleName = "zooSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hsuhua/Downloads/zooSample/zooSample/Models/Zoo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "1000">
+               </Location>
+               <Location
+                  uuid = "93AF8B65-D3C9-42C1-9D9F-0FBD44461413 - 42be155eab69e20e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zooSample.ImportDate.init(from: Swift.Decoder) throws -&gt; zooSample.ImportDate"
+                  moduleName = "zooSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hsuhua/Downloads/zooSample/zooSample/Models/Zoo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "432">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
