@@ -22,7 +22,8 @@ class ZooViewController: UIViewController, UITableViewDelegate {
     }
 
     required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        self.viewModel = ZooViewModel()
+        super.init(coder: aDecoder)
     }
 
     override func viewDidLoad() {
@@ -42,21 +43,17 @@ class ZooViewController: UIViewController, UITableViewDelegate {
         viewModel.getExhibits { [weak self] result in
             switch result {
             case .success(let exhibits):
-//                DispatchQueue.main.async {
-                    self?.viewModel.exhibits.accept(exhibits)
-                    self?.bindViewModel(viewModel: self?.viewModel ?? ZooViewModel())
-                
-//                }
+                self?.viewModel.exhibits.accept(exhibits)
+                self?.bindViewModel(viewModel: self?.viewModel ?? ZooViewModel())
             case .failure(let error):
                 print("Failed to get exhibits: \(error)")
-                // Handle error appropriately here
             }
         }
     }
 
     
     private func bindViewModel(viewModel: ZooViewModel) {
-        // Make sure that exhibits is Observable
+//        print(viewModel.exhibits.value)
         viewModel.exhibits
             .asObservable()
             .compactMap { $0 } // Unwrap the Optional

@@ -35,6 +35,6 @@ class ZooTableViewCell: UITableViewCell {
 
     func configure(with exhibit: Exhibit) {
         titleLabel.text = exhibit.eName
-        detailLabel.text = exhibit.eInfo
+        detailLabel.text = exhibit.eCategory
     }
 }
