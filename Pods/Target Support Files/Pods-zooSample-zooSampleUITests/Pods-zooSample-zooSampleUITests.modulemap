@@ -1,0 +1,6 @@
+framework module Pods_zooSample_zooSampleUITests {
+  umbrella header "Pods-zooSample-zooSampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

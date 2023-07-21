@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (5.6.4)
+  - Differentiator (5.0.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxOptional (5.0.2):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - RxViewController (2.0.0):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - SteviaLayout (5.1.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - RxCocoa
+  - RxDataSources
+  - RxOptional
+  - RxSwift
+  - RxViewController
+  - SteviaLayout
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Differentiator
+    - RxCocoa
+    - RxDataSources
+    - RxOptional
+    - RxRelay
+    - RxSwift
+    - RxViewController
+    - SteviaLayout
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxOptional: 3664964c96b69dd20c9cf78bdfe546615e26eca8
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  RxViewController: 56486fa0afd629a1d6b5ba077f3b8cd9dc31b5d2
+  SteviaLayout: 05424e528d643657d39ce72c786e4adf13cfc5f2
+
+PODFILE CHECKSUM: b0d99c1394974c38347a7683c7776a2bd812d6cd
+
+COCOAPODS: 1.12.1
