@@ -49,6 +49,21 @@
                   endingLineNumber = "51"
                   offsetFromSymbolStart = "360">
                </Location>
+               <Location
+                  uuid = "0485C175-DFD1-475C-8F2A-D870C1B0501A - a82d03cd561d6845"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zooSample.ImportDate.init(from: Swift.Decoder) throws -&gt; zooSample.ImportDate"
+                  moduleName = "zooSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hsuhua/Documents/myOwnProjects/zooSample/zooSample/Models/Zoo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "360">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -91,6 +106,21 @@
                   moduleName = "zooSample"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/hsuhua/Downloads/zooSample/zooSample/Models/Zoo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "432">
+               </Location>
+               <Location
+                  uuid = "93AF8B65-D3C9-42C1-9D9F-0FBD44461413 - a82d03cd561d6826"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "zooSample.ImportDate.init(from: Swift.Decoder) throws -&gt; zooSample.ImportDate"
+                  moduleName = "zooSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hsuhua/Documents/myOwnProjects/zooSample/zooSample/Models/Zoo.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "52"

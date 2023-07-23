@@ -28,6 +28,10 @@ class ZooViewController: UIViewController, UITableViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "台北市立動物園"
+        let burgerBarButtonItem = UIBarButtonItem(barButtonSystemItem: .bookmarks, target: self, action: #selector(burgerButtonTapped))
+        navigationItem.leftBarButtonItem = burgerBarButtonItem
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -72,5 +76,9 @@ class ZooViewController: UIViewController, UITableViewDelegate {
         tableView.estimatedRowHeight = 300
         tableView.rx.setDelegate(self).disposed(by: disposeBag)
     }
+    
+    @objc func burgerButtonTapped() {
+    }
+    
 }
 
